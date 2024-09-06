@@ -36,6 +36,6 @@ public class Main {
         
         // return calculated BMI rounded off to decimal places
         double bmi = bmiCalculator.calculateBMI();
-        System.out.println("The BMI is: " + bmi);
+        System.out.println("The calculated BMI is: " + bmi);
     }
 }
