@@ -33,7 +33,7 @@ public class Main {
         BMICalculator bmiCalculator = new BMICalculator();
         bmiCalculator.setHeight(170); // height in cm
         bmiCalculator.setWeight(56);  // weight in kg
-
+// return calc
         double bmi = bmiCalculator.calculateBMI();
         System.out.println("The BMI is: " + bmi);
     }
